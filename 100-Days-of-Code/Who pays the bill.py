@@ -2,6 +2,6 @@ import random
 
 friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
 
-who_pays = friends[random.randint(1, 5) - 1]
+who_pays = random.choice(friends)
 
 print(who_pays)
